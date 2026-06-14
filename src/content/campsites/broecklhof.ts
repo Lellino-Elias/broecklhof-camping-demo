@@ -42,7 +42,7 @@ const broecklhof: CampsiteConfig = {
     {
       title: "Die Berge gleich nebenan",
       text: "Im Winter sind die Skiberge Hauser Kaibling, Hochwurzen und Planai nur Minuten entfernt, im Sommer starten die Wanderwege direkt vor der Tür.",
-      image: { src: `${IMG}/hof-winter-panorama.webp`, alt: "Winterpanorama am Bröcklhof mit verschneiten Bergen" },
+      image: { src: `${IMG}/berge-panorama.webp`, alt: "Bergpanorama im Ennstal über Haus im Ennstal" },
     },
     {
       title: "Zwei Ferienwohnungen zum Wohlfühlen",
@@ -125,7 +125,7 @@ const broecklhof: CampsiteConfig = {
       {
         title: "Baden am Freizeitsee Aich",
         text: "Die Freizeitseeanlage Aich mit Liegewiese und Badeplattform ist ein beliebter Treffpunkt für warme Sommertage.",
-        image: { src: `${IMG}/freizeitsee-aich.webp`, alt: "Freizeitseeanlage Aich mit Liegewiese und Bergen" },
+        image: { src: `${IMG}/badeplattform-aich.webp`, alt: "Badeplattform am Freizeitsee Aich" },
       },
       {
         title: "Kneippen in Weißenbach",
@@ -168,7 +168,7 @@ const broecklhof: CampsiteConfig = {
       { src: `${IMG}/hof-sommer-wiese.webp`, alt: "Der Bröcklhof im Sommer, eingebettet in Wiesen und Wald" },
       { src: `${IMG}/obstbluete.webp`, alt: "Obstbaumblüte am Bröcklhof" },
       { src: `${IMG}/schlafzimmer-hell.webp`, alt: "Helles Schlafzimmer in einer Ferienwohnung am Bröcklhof" },
-      { src: `${IMG}/badeplattform-aich.webp`, alt: "Badeplattform am Freizeitsee Aich" },
+      { src: `${IMG}/hof-winter-panorama.webp`, alt: "Der Bröcklhof im Winter mit verschneiten Bergen im Hintergrund" },
     ],
   },
 
