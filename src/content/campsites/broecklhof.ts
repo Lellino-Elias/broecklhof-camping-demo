@@ -41,7 +41,7 @@ const broecklhof: CampsiteConfig = {
     },
     {
       title: "Die Berge gleich nebenan",
-      text: "Im Winter sind die Skiberge Hauser Kaibling, Hochwurzen und Planai nur Minuten entfernt, im Sommer starten die Wanderwege direkt vor der Tür.",
+      text: "Im Winter liegen Hauser Kaibling, Hochwurzen und Planai nur Minuten entfernt — im Sommer starten Wanderwege direkt vor der Tür.",
       image: { src: `${IMG}/berge-panorama.webp`, alt: "Bergpanorama im Ennstal über Haus im Ennstal" },
     },
     {
@@ -103,14 +103,14 @@ const broecklhof: CampsiteConfig = {
       {
         name: "Ferienwohnung Marie",
         kind: "bis 5 Personen · ca. 50 m²",
-        text: "Zwei getrennte Schlafräume, Küche mit Mikrowelle und Geschirrspüler, Bad und WC getrennt, Sat-TV und gratis WLAN — viel Platz für die ganze Familie.",
+        text: "Viel Platz für die ganze Familie: zwei Schlafräume, Küche mit Geschirrspüler, getrenntes Bad/WC, Sat-TV und gratis WLAN.",
         image: { src: `${IMG}/fewo-marie-wohnraum.webp`, alt: "Wohn- und Essbereich der Ferienwohnung Marie am Bröcklhof" },
         features: ["ca. 50 m²", "2 Schlafräume", "bis 5 Personen", "Küche & Geschirrspüler", "Sat-TV & WLAN"],
       },
       {
         name: "Ferienwohnung Therese",
         kind: "2–4 Personen · ca. 40 m²",
-        text: "Wohnschlafzimmer mit Küche, Mikrowelle und Geschirrspüler, Bad und WC getrennt sowie ein kleiner Balkon mit wunderschöner Aussicht.",
+        text: "Wohnschlafzimmer mit Küche und Geschirrspüler, Bad und WC getrennt — plus ein kleiner Balkon mit schöner Aussicht.",
         image: { src: `${IMG}/fewo-therese-balkon.webp`, alt: "Ferienwohnung Therese am Bröcklhof mit Balkon und Bergblick" },
         features: ["ca. 40 m²", "2–4 Personen", "Küche & Geschirrspüler", "Kleiner Balkon", "Sat-TV & WLAN"],
       },
@@ -134,7 +134,7 @@ const broecklhof: CampsiteConfig = {
       },
       {
         title: "Winterurlaub am Hof",
-        text: "Verschneit zeigt sich der Bröcklhof von seiner ruhigen Seite — Skifahren am Hauser Kaibling, Hochwurzen und der Planai sowie Langlaufloipen sind nur Minuten entfernt.",
+        text: "Im Winter liegen Skigebiete wie Hauser Kaibling und Langlaufloipen nur Minuten vom Hof entfernt.",
         image: { src: `${IMG}/hof-winter.webp`, alt: "Der Bröcklhof verschneit im Winter" },
       },
     ],
