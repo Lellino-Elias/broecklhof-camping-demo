@@ -37,17 +37,17 @@ const broecklhof: CampsiteConfig = {
     {
       title: "Mittendrin am Bauernhof",
       text: "Du wohnst nicht in einer Anlage, sondern direkt am Hof — Tiere zum Anfassen, in die sich vor allem Kinder schnell verlieben.",
-      image: { src: `${IMG}/hof-sommer.webp`, alt: "Der Bröcklhof im Sommer mit den Bergen im Hintergrund" },
+      image: { src: `${IMG}/hof-sommer.webp`, alt: "Der Bröcklhof im Sommer mit Blumenbalkon und Bergblick" },
     },
     {
       title: "Die Berge gleich nebenan",
       text: "Im Winter liegen Hauser Kaibling, Hochwurzen und Planai nur Minuten entfernt — im Sommer starten Wanderwege direkt vor der Tür.",
-      image: { src: `${IMG}/berge-panorama.webp`, alt: "Bergpanorama im Ennstal über Haus im Ennstal" },
+      image: { src: `${IMG}/haus-ennstal-panorama.webp`, alt: "Panorama von Haus im Ennstal mit Hauser Kaibling und Bergen" },
     },
     {
       title: "Zwei Ferienwohnungen zum Wohlfühlen",
       text: "Marie und Therese sind voll ausgestattet — eigene Küche, Sat-TV und gratis WLAN gehören selbstverständlich dazu.",
-      image: { src: `${IMG}/fewo-wohnbereich.webp`, alt: "Heller Wohnbereich einer Ferienwohnung am Bröcklhof" },
+      image: { src: `${IMG}/fewo-therese-wohnkueche.webp`, alt: "Heller Wohn- und Küchenbereich der Ferienwohnung Therese am Bröcklhof" },
     },
   ],
 
@@ -69,7 +69,7 @@ const broecklhof: CampsiteConfig = {
   awards: [],
 
   hero: {
-    aerial: { src: `${IMG}/fewo-therese-wohnraum.webp`, alt: "Helle Ferienwohnung am Bröcklhof mit Wohn-, Koch- und Schlafbereich" },
+    aerial: { src: `${IMG}/hof-sommer-luftbild.webp`, alt: "Der Bröcklhof im Sommer — eingebettet in Wiesen und Wald im Ennstal" },
   },
 
   camping: {
@@ -80,17 +80,17 @@ const broecklhof: CampsiteConfig = {
       {
         title: "Voll ausgestattete Küche",
         text: "Eigene Küche mit Mikrowelle und Geschirrspüler — Selbstversorgung im Urlaub ist hier ganz unkompliziert.",
-        image: { src: `${IMG}/kueche.webp`, alt: "Voll ausgestattete Küche der Ferienwohnung am Bröcklhof" },
+        image: { src: `${IMG}/fewo-therese-kueche-wohn.webp`, alt: "Voll ausgestattete Küche mit Wohn- und Schlafbereich der Ferienwohnung Therese" },
       },
       {
         title: "Gemütliche Schlafräume",
         text: "Helle Schlafzimmer mit Holzmöbeln und Blick ins Grüne — die Ferienwohnung Marie hat sogar zwei getrennte Schlafräume.",
-        image: { src: `${IMG}/schlafzimmer.webp`, alt: "Gemütliches Schlafzimmer mit Bergblick am Bröcklhof" },
+        image: { src: `${IMG}/schlafzimmer-marie.webp`, alt: "Helles Schlafzimmer mit Holzbett in der Ferienwohnung Marie am Bröcklhof" },
       },
       {
         title: "Eigenes Bad mit Dusche",
         text: "In beiden Wohnungen sind Bad und WC getrennt — mit Dusche, Hand- und Badetüchern, alles sauber und gepflegt.",
-        image: { src: `${IMG}/badezimmer.webp`, alt: "Eigenes Badezimmer mit Dusche in der Ferienwohnung am Bröcklhof" },
+        image: { src: `${IMG}/badezimmer-2.webp`, alt: "Helles Badezimmer mit Dusche und Doppelwaschbecken in der Ferienwohnung am Bröcklhof" },
       },
     ],
   },
@@ -104,14 +104,14 @@ const broecklhof: CampsiteConfig = {
         name: "Ferienwohnung Marie",
         kind: "bis 5 Personen · ca. 50 m²",
         text: "Viel Platz für die ganze Familie: zwei Schlafräume, Küche mit Geschirrspüler, getrenntes Bad/WC, Sat-TV und gratis WLAN.",
-        image: { src: `${IMG}/fewo-marie-wohnraum.webp`, alt: "Wohn- und Essbereich der Ferienwohnung Marie am Bröcklhof" },
+        image: { src: `${IMG}/fewo-marie-wohnzimmer.webp`, alt: "Wohnzimmer mit Essbereich der Ferienwohnung Marie am Bröcklhof" },
         features: ["ca. 50 m²", "2 Schlafräume", "bis 5 Personen", "Küche & Geschirrspüler", "Sat-TV & WLAN"],
       },
       {
         name: "Ferienwohnung Therese",
         kind: "2–4 Personen · ca. 40 m²",
         text: "Wohnschlafzimmer mit Küche und Geschirrspüler, Bad und WC getrennt — plus ein kleiner Balkon mit schöner Aussicht.",
-        image: { src: `${IMG}/fewo-therese-balkon.webp`, alt: "Ferienwohnung Therese am Bröcklhof mit Balkon und Bergblick" },
+        image: { src: `${IMG}/fewo-therese-panorama.webp`, alt: "Helles Wohnzimmer der Ferienwohnung Therese mit Balkonfenstern am Bröcklhof" },
         features: ["ca. 40 m²", "2–4 Personen", "Küche & Geschirrspüler", "Kleiner Balkon", "Sat-TV & WLAN"],
       },
     ],
@@ -125,7 +125,7 @@ const broecklhof: CampsiteConfig = {
       {
         title: "Baden am Freizeitsee Aich",
         text: "Die Freizeitseeanlage Aich mit Liegewiese und Badeplattform ist ein beliebter Treffpunkt für warme Sommertage.",
-        image: { src: `${IMG}/badeplattform-aich.webp`, alt: "Badeplattform am Freizeitsee Aich" },
+        image: { src: `${IMG}/freizeitsee-aich-sommer.webp`, alt: "Freizeitseeanlage Aich im Sommer mit Liegewiese und Bergen" },
       },
       {
         title: "Kneippen in Weißenbach",
@@ -135,7 +135,7 @@ const broecklhof: CampsiteConfig = {
       {
         title: "Winterurlaub am Hof",
         text: "Im Winter liegen Skigebiete wie Hauser Kaibling und Langlaufloipen nur Minuten vom Hof entfernt.",
-        image: { src: `${IMG}/hof-winter.webp`, alt: "Der Bröcklhof verschneit im Winter" },
+        image: { src: `${IMG}/winterwandern-ennstal.webp`, alt: "Winterwandern im Ennstal mit Bergpanorama und Sonne" },
       },
     ],
   },
@@ -165,10 +165,10 @@ const broecklhof: CampsiteConfig = {
       "Vom Bauernhof im Sommer über die Obstbaumblüte bis zum Badesee — ein paar Eindrücke aus Haus im Ennstal.",
     tag: "Sommer & Winter",
     images: [
-      { src: `${IMG}/hof-sommer-wiese.webp`, alt: "Der Bröcklhof im Sommer, eingebettet in Wiesen und Wald" },
-      { src: `${IMG}/obstbluete.webp`, alt: "Obstbaumblüte am Bröcklhof" },
-      { src: `${IMG}/schlafzimmer-hell.webp`, alt: "Helles Schlafzimmer in einer Ferienwohnung am Bröcklhof" },
-      { src: `${IMG}/hof-winter-panorama.webp`, alt: "Der Bröcklhof im Winter mit verschneiten Bergen im Hintergrund" },
+      { src: `${IMG}/bodensee-sommer.webp`, alt: "Steirischer Bodensee im Sommer mit Bergpanorama und Almhütte" },
+      { src: `${IMG}/pferdekutsche-winter.webp`, alt: "Pferdekutschenfahrt im Ennstal im Winter" },
+      { src: `${IMG}/langlauf-ennstal.webp`, alt: "Langlauf im Ennstal — Pärchen auf der Loipe in der Obersteiermark" },
+      { src: `${IMG}/radfahren-bergpanorama.webp`, alt: "Radfahren mit Bergpanorama im Ennstal bei Haus im Ennstal" },
     ],
   },
 
